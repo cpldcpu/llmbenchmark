@@ -34,31 +34,31 @@ Sonnet and 4o produced the most visually appealing images.
 <table align="center">
   <tr>
     <td align="center">
-      <img src="images/sonnet.png" alt="Newsonnet" width="200" /><br/>
+      <img src="images/sonnet.png" alt="Newsonnet" width="40%" /><br/>
       Sonnet 3.5 (new)
     </td>
     <td align="center">
-      <img src="images/deepseek_v3.png" alt="DeepSeek v3" width="200" /><br/>
+      <img src="images/deepseek_v3.png" alt="DeepSeek v3" width="40%" /><br/>
       DeepSeek v3
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="images/gpt-4o.png" alt="4o" width="200" /><br/>
+      <img src="images/gpt-4o.png" alt="4o" width="40%" /><br/>
       4o
     </td>
     <td align="center">
-      <img src="images/gemini_flash_thinking.png" alt="Gemini" width="200" /><br/>
+      <img src="images/gemini_flash_thinking.png" alt="Gemini" width="40%" /><br/>
       Gemini
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="images/grok_raytracer.png" alt="Grok" width="200" /><br/>
+      <img src="images/grok_raytracer.png" alt="Grok" width="40%" /><br/>
       Grok
     </td>
     <td align="center">
-      <img src="images/o3-mini.png" alt="O3-Mini" width="200" /><br/>
+      <img src="images/o3-mini.png" alt="O3-Mini" width="40%" /><br/>
       O3-Mini
     </td>
   </tr>

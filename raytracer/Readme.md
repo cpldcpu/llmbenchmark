@@ -13,7 +13,8 @@ The following prompt was used for all LLMs:
 * [DeepSeek v3](raytracer_DeepSeek_v3.py)
 * [DeepSeek R1](raytracer_DeepSeek_r1.py)
 * [Gemini Flash Thinking](raytracer_gemini_flash_thinking.py)
-* [Grok](raytracer_grok.py)
+* [Grok2](raytracer_grok2.py)
+* [Grok3](raytracer_grok3.py)
 * [O3-Mini](raytracer_o3-mini.py)
 * [4o](raytracer_4o.py)
 
@@ -60,6 +61,16 @@ Sonnet and 4o produced the most visually appealing images.
     <td align="center">
       <img src="images/o3-mini.png" alt="O3-Mini" width="40%" /><br/>
       O3-Mini
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/grok3_raytracer.png" alt="Grok3" width="200" /><br/>
+      Grok3
+    </td>
+    <td align="center">
+      <img src="xxx" alt="xxx" width="200" /><br/>
+      ...
     </td>
   </tr>
 </table>

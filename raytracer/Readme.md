@@ -21,6 +21,7 @@ The following prompt was used for all LLMs:
 * [O1](raytracer_o1.py)
 * [O3-Mini](raytracer_o3-mini.py)
 * [GPT-4o](raytracer_4o.py)
+* [GPT-4.5](raytracer_gpt4_5.py)
 * [Qwen Max](raytracer_qwen_max.py)
 
 ## Results
@@ -93,6 +94,15 @@ The following prompt was used for all LLMs:
     <td align="center">
       <img src="images/QwenMax.png" alt="Qwen Max" width="400" /><br/>
       Qwen Max
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/gpt-4_5.png" alt="GPT-4.5" width="400" /><br/>
+      GPT-4.5
+    </td>
+    <td align="center">
+      <!-- Placeholder for future image -->
     </td>
   </tr>
 </table>

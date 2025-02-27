@@ -9,14 +9,19 @@ The following prompt was used for all LLMs:
 
 ## Implementations
 
-* [Claude Sonnet](raytracer_sonnet.py)
+* [Claude Sonnet 3.5 (new)](raytracer_sonnet.py)
+* [Claude Sonnet 3.7](raytracer_sonnet37.py)
+* [Claude Sonnet 3.7 Thinking](raytracer_sonnet37_thinking.py)
 * [DeepSeek v3](raytracer_DeepSeek_v3.py)
 * [DeepSeek R1](raytracer_DeepSeek_r1.py)
 * [Gemini Flash Thinking](raytracer_gemini_flash_thinking.py)
-* [Grok2](raytracer_grok2.py)
-* [Grok3](raytracer_grok3.py)
+* [Gemini 2 Flash](raytracer_gemini_2_flash.py)
+* [Grok 2](raytracer_grok2.py)
+* [Grok 3](raytracer_grok3.py)
+* [O1](raytracer_o1.py)
 * [O3-Mini](raytracer_o3-mini.py)
-* [4o](raytracer_4o.py)
+* [GPT-4o](raytracer_4o.py)
+* [Qwen Max](raytracer_qwen_max.py)
 
 ## Results
 
@@ -29,49 +34,65 @@ The following prompt was used for all LLMs:
 
 ### Output Images
 
-Sonnet and 4o produced the most visually appealing images.
-
-<!-- filepath: /d:/LLM/llm_raytracer/Readme.md -->
 <table align="center">
   <tr>
     <td align="center">
-      <img src="images/sonnet.png" alt="Newsonnet" width="40%" /><br/>
-      Sonnet 3.5 (new)
+      <img src="images/sonnet.png" alt="Claude Sonnet 3.5 (new)" width="400" /><br/>
+      Claude Sonnet
     </td>
     <td align="center">
-      <img src="images/deepseek_v3.png" alt="DeepSeek v3" width="40%" /><br/>
+      <img src="images/sonnet37.png" alt="Claude Sonnet 3.7" width="400" /><br/>
+      Claude Sonnet 3.7
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/sonnet37_thinking.png" alt="Claude Sonnet 3.7 Thinking" width="400" /><br/>
+      Claude Sonnet 3.7 Thinking
+    </td>
+    <td align="center">
+      <img src="images/gpt-4o.png" alt="GPT-4o" width="400" /><br/>
+      GPT-4o
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/deepseek_v3.png" alt="DeepSeek v3" width="400" /><br/>
       DeepSeek v3
     </td>
-  </tr>
-  <tr>
     <td align="center">
-      <img src="images/gpt-4o.png" alt="4o" width="40%" /><br/>
-      4o
-    </td>
-    <td align="center">
-      <img src="images/gemini_flash_thinking.png" alt="Gemini" width="40%" /><br/>
-      Gemini
+      <img src="images/gemini_flash_thinking.png" alt="Gemini Flash Thinking" width="400" /><br/>
+      Gemini Flash Thinking
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="images/grok_raytracer.png" alt="Grok" width="40%" /><br/>
-      Grok
+      <img src="images/gemini_2_flash.png" alt="Gemini 2 Flash" width="400" /><br/>
+      Gemini 2 Flash
     </td>
     <td align="center">
-      <img src="images/o3-mini.png" alt="O3-Mini" width="40%" /><br/>
+      <img src="images/grok2_raytracer.png" alt="Grok 2" width="400" /><br/>
+      Grok 2
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/grok3_raytracer.png" alt="Grok 3" width="400" /><br/>
+      Grok 3
+    </td>
+    <td align="center">
+      <img src="images/o1.png" alt="O1" width="400" /><br/>
+      O1
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/o3-mini.png" alt="O3-Mini" width="400" /><br/>
       O3-Mini
     </td>
-  </tr>
-  <tr>
     <td align="center">
-      <img src="images/grok3_raytracer.png" alt="Grok3" width="200" /><br/>
-      Grok3
-    </td>
-    <td align="center">
-      <img src="xxx" alt="xxx" width="200" /><br/>
-      ...
+      <img src="images/QwenMax.png" alt="Qwen Max" width="400" /><br/>
+      Qwen Max
     </td>
   </tr>
 </table>
-

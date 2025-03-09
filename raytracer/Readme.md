@@ -23,6 +23,7 @@ The following prompt was used for all LLMs:
 * [GPT-4o](raytracer_4o.py)
 * [GPT-4.5](raytracer_gpt4_5.py)
 * [Qwen Max](raytracer_qwen_max.py)
+* [QwQ32B](raytracer_qwq32b.py)
 
 ## Results
 
@@ -45,8 +46,6 @@ The following prompt was used for all LLMs:
       <img src="images/sonnet37.png" alt="Claude Sonnet 3.7" width="400" /><br/>
       Claude Sonnet 3.7
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <img src="images/sonnet37_thinking.png" alt="Claude Sonnet 3.7 Thinking" width="400" /><br/>
       Claude Sonnet 3.7 Thinking
@@ -65,8 +64,6 @@ The following prompt was used for all LLMs:
       <img src="images/gemini_flash_thinking.png" alt="Gemini Flash Thinking" width="400" /><br/>
       Gemini Flash Thinking
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <img src="images/gemini_2_flash.png" alt="Gemini 2 Flash" width="400" /><br/>
       Gemini 2 Flash
@@ -85,8 +82,6 @@ The following prompt was used for all LLMs:
       <img src="images/o1.png" alt="O1" width="400" /><br/>
       O1
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <img src="images/o3-mini.png" alt="O3-Mini" width="400" /><br/>
       O3-Mini
@@ -102,7 +97,10 @@ The following prompt was used for all LLMs:
       GPT-4.5
     </td>
     <td align="center">
-      <!-- Placeholder for future image -->
+      <img src="images/QwQ32B.png" alt="QwQ32B" width="400" /><br/>
+      QwQ32B
     </td>
+    <td></td>
+    <td></td>
   </tr>
 </table>

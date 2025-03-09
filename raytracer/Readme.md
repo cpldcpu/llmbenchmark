@@ -102,7 +102,10 @@ The following LLMs did not return properly functioning code: Grok3-thinking, Dee
       <img src="images/QwQ32B.png" alt="QwQ32B" width="400" /><br/>
       QwQ32B
     </td>
-    <td></td>
+    <td align="center">
+      <img src="images/codestral.png" alt="Codestral" width="400" /><br/>
+      Codestral
+    </td>
     <td></td>
   </tr>
 </table>

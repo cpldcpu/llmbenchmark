@@ -25,6 +25,8 @@ The following prompt was used for all LLMs:
 * [Qwen Max](raytracer_qwen_max.py)
 * [QwQ32B](raytracer_qwq32b.py)
 
+The following LLMs did not return properly functioning code: Grok3-thinking, DeepSeek-R1, Le Chat (Mistral Large 2), 8b models, llama3-405b/70b, llama3-hermes3-405b/70b
+
 ## Results
 
 ### Performance Notes
@@ -40,7 +42,7 @@ The following prompt was used for all LLMs:
   <tr>
     <td align="center">
       <img src="images/sonnet.png" alt="Claude Sonnet 3.5 (new)" width="400" /><br/>
-      Claude Sonnet
+      Claude Sonnet 3.5 (new)
     </td>
     <td align="center">
       <img src="images/sonnet37.png" alt="Claude Sonnet 3.7" width="400" /><br/>

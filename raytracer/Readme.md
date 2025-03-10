@@ -114,7 +114,7 @@ The following LLMs did not return properly functioning code: Grok3-thinking, Dee
 
 Since the tests above are based on one-shot prompts, they are not necessarily representative of the LLM's average capabilities. I ran the experiment 4 times with [Sonnet-3.5](variance_sonnet35/) and [Sonnet-3.7](variance_sonnet37/) to test for consistency.
 
-We can clearly see a significant change in behavior between the two models. Sonnet-3.5 produces slight variations of a basic scene with red, green and blue sphere, while Sonnet-3.7 uses more objects, colors and more variations in general.
+We can clearly see a significant change in behavior between the two models. Sonnet-3.5 produces slight variations of a basic scene with red, green and blue sphere, while Sonnet-3.7 uses more objects, colors and more variations in general. GPT 4.5 is also more of a three-sphere llm.
 
 
 #### Claude Sonnet 3.5 Variance Test
@@ -155,3 +155,21 @@ We can clearly see a significant change in behavior between the two models. Sonn
   </tr>
 </table>
 
+#### Claude GPT 4.5 Variance Test
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="variance_gpt45/raytraced_scene1.png" alt="GPT 4.5 - Test 1" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_gpt45/raytraced_scene2.png" alt="GPT 4.5 - Test 2" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_gpt45/raytraced_scene3.png" alt="GPT 4.5 - Test 3" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_gpt45/raytraced_scene4.png" alt="GPT 4.5 - Test 4" width="400" />
+    </td>
+  </tr>
+</table>

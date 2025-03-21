@@ -25,7 +25,7 @@ The following prompt was used for all LLMs:
 * [Qwen Max](raytracer_qwen_max.py)
 * [QwQ32B](raytracer_qwq32b.py)
 
-The following LLMs did not return properly functioning code: Grok3-thinking, DeepSeek-R1, Le Chat (Mistral Large 2), 8b models, llama3-405b/70b, llama3-hermes3-405b/70b
+The following LLMs did not return properly functioning code: Grok3-thinking, DeepSeek-R1, Le Chat (Mistral Large 2), 8b models, llama3-405b/70b, llama3-hermes3-405b/70b, Hunyuan-T1
 
 ## Results
 

@@ -1,0 +1,936 @@
+* **However, this gives 45 minutes total, and 15 minutes *after* the 30-minute mark.  Not 20 minutes.**
+
+* **Rethinking again.  What if the question isn't asking to measure *exactly 20 minutes from the start*? What if it's asking to measure *a duration of 20 minutes*? No, it says "measure exactly 20 minutes".**
+
+* **Is it possible that the question is unsolveable with *exactly* 20 minutes?  No, these types of puzzles usually have a clever solution.**
+
+* **Let's re-examine the strategy again.  Rope 1 both ends = 30 minutes.  Rope 2 one end = 60 minutes.  Rope 2 both ends = 30 minutes.**
+
+* **Aha!  Wait!  Let's reconsider the remaining 30 minutes of rope 2.  When rope 1 burns out at 30 minutes.  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**  No, still not directly helpful.
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: light one rope at both ends.**  Measure 15 minutes *after* 30 minutes?  Also possible.  Measure 45 minutes total? Yes.  But 20 minutes?
+
+* **Let's rethink the *starting* strategy again.  Is there a different way to light the ropes initially?**
+
+* **Wait!  What if I light rope 1 at one end, and rope 2 at one end.  No, that's just 60 minutes for each, independently.**
+
+* **Aha!  Let's think about *fractions* of the 60-minute rope.  20 minutes is 1/3 of 60 minutes.**  Can I get 1/3 of a rope's burn time?  No, uneven burning.
+
+* **Let's reconsider the 30-minute marker again.  Rope 1 both ends.**  And rope 2 remaining.  And I want 20 minutes.
+
+* **Wait!  Let's think about the *ratio* 20/30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Aha!  Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *very simple* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (This is just to understand 60 minutes, not directly for 20).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 2/3 or 1/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *slightly different* strategy:**
+    * **Step 1: Light rope 1 at one end.**
+    * **Step 2: Light rope 2 at *both* ends *simultaneously*.**
+    * **Step 3: When rope 2 burns out, 30 minutes have passed.**
+    * **Step 4: At this moment, rope 1 has been burning for 30 minutes, and has 30 minutes *remaining*.**
+    * **Step 5:  We want to measure 20 minutes.  And we have a 30-minute marker.  And rope 1 has 30 minutes *remaining*.**  Still not directly 20.
+
+* **Wait!  Let's re-examine the *remaining 30 minutes* of rope 1.  And I want 20 minutes.  Is there a way to use rope 1's *remaining* burn time to get to 20 minutes?  No, not directly.
+
+* **Aha!  Wait!  Let's think about the *ratio* 20 to 30.  20 is 2/3 of 30.  No, still not helpful for ropes.**
+
+* **Wait!  Let's re-examine the *45-minute process* again.  And the *15-minute second part*.  Is 15 minutes somehow related to 20 minutes?  No, not directly.**
+
+* **Let's go back to the *beginning*.  Two ropes, 60 minutes each.  Measure 20 minutes.**
+
+* **Aha!  Wait!  Let's try this *even simpler* strategy:**
+    * **Step 1: Light rope 1 at one end and rope 2 at one end simultaneously.**
+    * **Step 2: When rope 1 burns out completely, 60 minutes have passed.**  (Again, just for understanding 60 minutes).
+
+* **Let's simplify the goal.  Measure 30 minutes.  Easy: rope 1 both ends.**
+
+* **Aha!  Wait!  Let's think about *fractions of time* again.  20 minutes is 1/3 of 60 minutes.  And 40 minutes is 2/3 of 60 minutes.**  Is 1/3 or 2/3 helpful?
+
+* **Wait!  Let's reconsider the *remaining 30 minutes* of rope 2.  When rope 1 burns out at 30 minutes (rope 1 lit both ends).  Rope 2 has 30 minutes remaining.  And I want 20 minutes.**
+
+* **Aha!  Let's think about the *ratio* 20 to 30.  

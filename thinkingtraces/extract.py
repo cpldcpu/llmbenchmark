@@ -61,6 +61,9 @@ def print_histograms(file_histograms):
     
     # Take only top 20 rows
     df = df.head(20)
+
+    # sort
+    df = df[sorted(df.columns)]
     
     print("\nComparison Matrix (percentages):")
     print("-" * 40)

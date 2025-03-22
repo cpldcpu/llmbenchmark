@@ -26,7 +26,7 @@ The [R1 paper](https://arxiv.org/abs/2501.12948), however, has shown that reinfo
 
 Now, if others are also using R1 traces to finetune their models before reinforcement learning, they'll end up with the same critical tokens, which could explain the statistical similarities we are seeing here. As a caveat, this is based on limited statistics and is rather a hypothesis at this point.
 
-Gemini, Sonnet, and o3-mini use different critical tokens, which may indicate that these models were primed in a different way. Also, the first Qwen-32b-preview, which was trained using a process reward model instead of RLHF, uses different critical tokens (see "but"). Qwen most likely adopted a different reinforcement learning approach for the final version of the model.
+Gemini, Sonnet, and o3-mini use different critical tokens, which may indicate that these models were primed in a different way. Also, the first Qwen-32b-preview, which was trained using a process reward model instead of GRPO, uses different critical tokens (see "but"). Qwen most likely adopted a different reinforcement learning approach for the final version of the model.
 
 ## Usage
 

@@ -13,6 +13,7 @@ The following prompt was used for all LLMs:
 * [Claude Sonnet 3.7](raytracer_sonnet37.py)
 * [Claude Sonnet 3.7 Thinking](raytracer_sonnet37_thinking.py)
 * [DeepSeek v3](raytracer_DeepSeek_v3.py)
+* [DeepSeek v3_0324](raytracer_DeepSeek_v3_0324.py)
 * [DeepSeek R1](raytracer_DeepSeek_r1.py)
 * [Gemini Flash Thinking](raytracer_gemini_flash_thinking.py)
 * [Gemini 2 Flash](raytracer_gemini_2_flash.py)
@@ -106,7 +107,10 @@ The following LLMs did not return properly functioning code: Grok3-thinking, Dee
       <img src="images/codestral.png" alt="Codestral" width="400" /><br/>
       Codestral
     </td>
-    <td></td>
+    <td align="center">
+      <img src="images/deepseek_v3_0324.png" alt="DeepSeek_v3_0324" width="400" /><br/>
+      Deepseek V3 0324
+    </td>
   </tr>
 </table>
 
@@ -150,6 +154,44 @@ We can clearly see a significant change in behavior between the two models. Sonn
     </td>
     <td align="center">
       <img src="variance_sonnet37/raytraced_scene4.png" alt="Sonnet 3.7 - Test 4" width="400" />
+    </td>
+  </tr>
+</table>
+
+#### DeepSeek V3 (original) Variance Test
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="variance_deepseek_v3/raytraced_scene1.png" alt="Sonnet 3.7 - Test 1" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_deepseek_v3/raytraced_scene2.png" alt="Sonnet 3.7 - Test 2" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_deepseek_v3/raytraced_scene3.png" alt="Sonnet 3.7 - Test 3" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_deepseek_v3/raytraced_scene4.png" alt="Sonnet 3.7 - Test 4" width="400" />
+    </td>
+  </tr>
+</table>
+
+#### DeepSeek V3 (0324) Variance Test
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="variance_deepseek_v3_0324/raytraced_scene1.png" alt="Sonnet 3.7 - Test 1" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_deepseek_v3_0324/raytraced_scene2.png" alt="Sonnet 3.7 - Test 2" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_deepseek_v3_0324/raytraced_scene3.png" alt="Sonnet 3.7 - Test 3" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_deepseek_v3_0324/raytraced_scene4.png" alt="Sonnet 3.7 - Test 4" width="400" />
     </td>
   </tr>
 </table>

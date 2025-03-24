@@ -233,3 +233,11 @@ We can clearly see a significant change in behavior between the two models. Sonn
     </td>
   </tr>
 </table>
+
+#### File sizes
+
+There is a notable correlation between code creativity and file size.
+
+<div align="center">
+  <img src="python_file_sizes_by_llm.png" width="80%" />
+</div>

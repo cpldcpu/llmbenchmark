@@ -34,7 +34,7 @@ The following LLMs did not return properly functioning code: Grok3-thinking, Dee
 
 * Most implementations take several minutes to render, which is not unexpected for a Python raytracer. (Try C next? :D)
 * Performance varies between implementations, with some taking significantly longer to complete
-* DeepSeek R1 spent 566 thinking and then outputted a broken file. I was not able to restart due to busy server.
+* DeepSeek R1 spent 566 thinking and then outputted a broken file. I was not able to restart due to a busy server.
 * 4o's first attempt required corrections, but the second attempt was successful
 
 ### Output Images for different LLMs
@@ -118,7 +118,7 @@ The following LLMs did not return properly functioning code: Grok3-thinking, Dee
 
 Since the tests above are based on one-shot prompts, they are not necessarily representative of the LLM's average capabilities. I ran the experiment 4 times with [Sonnet-3.5](variance_sonnet35/), [Sonnet-3.7](variance_sonnet37/), [GPT4.5](variance_gpt45/) and [grok3](variance_grok3/) to test for consistency.
 
-We can clearly see a significant change in behavior between the two models. Sonnet-3.5 produces slight variations of a basic scene with red, green and blue sphere, while Sonnet-3.7 uses more objects, colors and more variations in general. GPT 4.5 and Grok3 are also more of a three-sphere llm.
+We can clearly see a significant change in behavior between the two models. Sonnet-3.5 produces slight variations of a basic scene with red, green and blue spheres, while Sonnet-3.7 uses more objects, colors and more variations in general. GPT 4.5 and Grok3 are also more of a three-sphere llm.
 
 #### Claude Sonnet 3.5 Variance Test
 

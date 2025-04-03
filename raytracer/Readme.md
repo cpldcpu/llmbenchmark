@@ -234,6 +234,26 @@ We can clearly see a significant change in behavior between the two models. Sonn
   </tr>
 </table>
 
+#### Quasar Alpha Variance Test
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="variance_quasar_alpha/raytraced_scene1.png" alt="Grok 3 - Test 1" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_quasar_alpha/raytraced_scene2.png" alt="Grok 3 - Test 2" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_quasar_alpha/raytraced_scene3.png" alt="Grok 3 - Test 3" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_quasar_alpha/raytraced_scene4.png" alt="Grok 3 - Test 4" width="400" />
+    </td>
+  </tr>
+</table>
+
+
 #### File sizes
 
 There is a notable correlation between code creativity and file size.

@@ -5,10 +5,13 @@ A collection of benchmark experiments for evaluating different aspects of Large 
 ## Projects
 
 ### [Raytracer](raytracer/Readme.md)
-Evaluates LLMs' code generation capabilities by prompting them to create Python raytracers. Includes visual comparisons and consistency tests across multiple models.
+Evaluates code generation capabilities by prompting to create Python raytracers. Includes visual comparisons and consistency tests across multiple models.
 
 ### [Thinking Traces Analyzer](thinkingtraces/README.md)
 Analyzes the reasoning patterns and chain-of-thought processes of various LLMs by examining statistical patterns in their thinking traces.
+
+### [Fingerprinting](fingerprinting/README.md)
+Attempt to tests LLM consistency and uniqueness across various topic domains by analyzing generation statistics for prompts with a single word response. Helps identify model-specific response patterns that can serve as "fingerprints" for different LLMs.
 
 ## License
 

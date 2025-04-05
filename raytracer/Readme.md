@@ -20,6 +20,7 @@ The following prompt was used for all LLMs:
 * [Gemini 2.5 Pro Exp](raytracer_gemini_2_pro_exp.py)
 * [Grok 2](raytracer_grok2.py)
 * [Grok 3](raytracer_grok3.py)
+* [Llama 3.3 70b](raytracer_llama3_3_70b.py)
 * [Llama4 scout](/variant_llama4_scout/iteration4.py)
 * [O1](raytracer_o1.py)
 * [O3-Mini](raytracer_o3-mini.py)
@@ -113,6 +114,23 @@ The following LLMs did not return properly functioning code: Grok3-thinking, Dee
       <img src="images/deepseek_v3_0324.png" alt="DeepSeek_v3_0324" width="400" /><br/>
       Deepseek V3 0324
     </td>
+  </tr>
+    <tr>
+    <td align="center">
+      <img src="images/gemini25proexp.png" alt="Gemini 2.5 pro exp" width="400" /><br/>
+      Gemini 2.5 pro exp
+    </td>
+    <td align="center">
+      <img src="images/llama3_3_70b.png" alt="llama3_3_70b" width="400" /><br/>
+      LLama 3.3 70b
+    </td>
+    <td align="center">
+      <img src="variance_quasar_alpha/raytraced_scene2.png" alt="Quasar Alpha" width="400" /><br/>
+      Quasar Alpha
+    </td>
+    <td align="center">
+     -
+     </td>
   </tr>
 </table>
 

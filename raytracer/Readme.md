@@ -17,8 +17,10 @@ The following prompt was used for all LLMs:
 * [DeepSeek R1](raytracer_DeepSeek_r1.py)
 * [Gemini Flash Thinking](raytracer_gemini_flash_thinking.py)
 * [Gemini 2 Flash](raytracer_gemini_2_flash.py)
+* [Gemini 2.5 Pro Exp](raytracer_gemini_2_pro_exp.py)
 * [Grok 2](raytracer_grok2.py)
 * [Grok 3](raytracer_grok3.py)
+* [Llama4 scout](/variant_llama4_scout/iteration4.py)
 * [O1](raytracer_o1.py)
 * [O3-Mini](raytracer_o3-mini.py)
 * [GPT-4o](raytracer_4o.py)
@@ -26,7 +28,7 @@ The following prompt was used for all LLMs:
 * [Qwen Max](raytracer_qwen_max.py)
 * [QwQ32B](raytracer_qwq32b.py)
 
-The following LLMs did not return properly functioning code: Grok3-thinking, DeepSeek-R1, Le Chat (Mistral Large 2), 8b models, llama3-405b/70b, llama3-hermes3-405b/70b, Hunyuan-T1, Gemini 2 Pro Exp
+The following LLMs did not return properly functioning code: Grok3-thinking, DeepSeek-R1, Le Chat (Mistral Large 2), 8b models, llama3-405b/70b, llama3-hermes3-405b/70b, Hunyuan-T1. Generally, the R1-adjacent reasoning models tend to overthink code fragments and then come up with dysfunctional code. Sonnet-
 
 ## Results
 
@@ -249,6 +251,25 @@ We can clearly see a significant change in behavior between the two models. Sonn
     </td>
     <td align="center">
       <img src="variance_quasar_alpha/raytraced_scene4.png" alt="Grok 3 - Test 4" width="400" />
+    </td>
+  </tr>
+</table>
+
+#### Llama4 Scout Variance Test
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="variance_llama4_scout/raytraced_scene1.png" alt="llama4-scout - Test 1" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_llama4_scout/raytraced_scene2.png" alt="llama4-scout - Test 2" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_llama4_scout/raytraced_scene3.png" alt="llama4-scout - Test 3" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_llama4_scout/raytraced_scene4.png" alt="llama4-scout - Test 4" width="400" />
     </td>
   </tr>
 </table>

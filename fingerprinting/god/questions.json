@@ -1,0 +1,10 @@
+{
+    "prompts": [
+      {
+        "prompt_id": "Gods",
+        "category": "Core Beliefs",
+        "title": "Gods",
+        "prompt": "If you were a god, which would it be? Name only one. Respond with one word only."
+      }
+    ]
+}

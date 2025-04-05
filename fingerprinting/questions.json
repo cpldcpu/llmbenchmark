@@ -1,0 +1,10 @@
+{
+    "prompts": [
+      {
+        "prompt_id": "creator",
+        "category": "Core Beliefs",
+        "title": "Who created you?",
+        "prompt": "Who created you? Respond with one word only."
+      }
+    ]
+}

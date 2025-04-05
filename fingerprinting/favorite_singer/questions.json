@@ -1,0 +1,10 @@
+{
+    "prompts": [
+      {
+        "prompt_id": "Singer",
+        "category": "Core Beliefs",
+        "title": "Favorite Singer",
+        "prompt": "Who is your favorite singer? Name only one. Respond with one word only."
+      }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "prompts": [
+      {
+        "prompt_id": "color",
+        "category": "Core Beliefs",
+        "title": "Favorite Color",
+        "prompt": "Which is your favorite color? Name only one. Respond with one word only."
+      }
+    ]
+}

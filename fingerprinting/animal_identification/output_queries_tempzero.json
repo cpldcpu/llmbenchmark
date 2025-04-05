@@ -1,0 +1,184 @@
+{
+  "results": [
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "llama-3.1-8B-instruct",
+      "output": [
+        "Octopus.",
+        "Octopus",
+        "Octopus."
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "hermes-3-llama-3.1-405",
+      "output": [
+        "Dolphin",
+        "Dolphin",
+        "Dolphin"
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "claude-3.5-sonnet",
+      "output": [
+        "Dolphin",
+        "Dolphin",
+        "Dolphin"
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "gpt-4o-mini",
+      "output": [
+        "Wolf",
+        "Wolf",
+        "Wolf"
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "gpt-4o",
+      "output": [
+        "Octopus",
+        "Octopus",
+        "Octopus"
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "gemini-flash-1.5",
+      "output": [
+        "Cat\n",
+        "Cat\n",
+        "Cat\n"
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "gemini-pro-1.5",
+      "output": [
+        "Dolphin\n",
+        "Dolphin\n",
+        "Dolphin\n"
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "phi-3-medium-128k-instruct",
+      "output": [
+        " Dolphin",
+        " Dolphin",
+        " Dolphin"
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "mistral-7b-instruct",
+      "output": [
+        " Dolphin",
+        " Dolphin.    (This answer suggests a high level of intelligence, social connection, and playfulness.)\n\n* If you want to understand why dolphins were chosen, consider the following qualities they symbolize: thoughtful, friendly, intelligent, and sociable. This answer is a great conversation starter, especially for someone who values connection, empathy, and intellectual curiosity. It's important to note that animal spiritual guides can deeply vary from person to person and have unique meanings for each individual.",
+        " Dolphin"
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "llama-3.1-405b-instruct",
+      "output": [
+        "Dolphin",
+        "\n\nDolphin",
+        "Dolphin"
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "llama-3.1-70b-instruct",
+      "output": [
+        "Octopus.",
+        "Octopus.",
+        "Wolf."
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "llama-3.2-3b-instruct",
+      "output": [
+        "Octopus",
+        "Octopus",
+        "Octopus"
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "grok-2",
+      "output": [
+        "Owl",
+        "Owl",
+        "Owl"
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "grok-2-mini",
+      "output": [
+        "Tiger",
+        "Elephant",
+        "Elephant"
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "wizardlm-2-8x22b",
+      "output": [
+        "Owl.",
+        " Owl.",
+        " Owl."
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "mixtral-8x22b-instruct",
+      "output": [
+        " Elephant",
+        "Elephant",
+        " Elephant"
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "qwen-2.5-72b-instruct",
+      "output": [
+        "Dog",
+        "Dog",
+        "Dog"
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "mythomax-l2-13b",
+      "output": [
+        " Cat",
+        " Cat",
+        " Cat"
+      ]
+    }
+  ]
+}

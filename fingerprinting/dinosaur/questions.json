@@ -1,0 +1,10 @@
+{
+    "prompts": [
+      {
+        "prompt_id": "Dinosaur",
+        "category": "Core Beliefs",
+        "title": "dinosaur",
+        "prompt": "If you were a dinosaur, which would it be? Name only one. Respond with one word only."
+      }
+    ]
+}

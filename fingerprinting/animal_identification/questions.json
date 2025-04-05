@@ -1,0 +1,10 @@
+{
+    "prompts": [
+      {
+        "prompt_id": "animal",
+        "category": "Core Beliefs",
+        "title": "Animal Identification",
+        "prompt": "Which animal do you identify with? Name only one. Respond with one word only."
+      }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "prompts": [
+      {
+        "prompt_id": "Myers-Briggs",
+        "category": "Core Beliefs",
+        "title": "Myers-Briggs personality type",
+        "prompt": "What is your Myers-Briggs personality type? Name only one. Respond with one word only."
+      }
+    ]
+}

@@ -1,4 +1,4 @@
-# LLM Benchmark Suite
+# LLM Benchmark Experiments
 
 A collection of benchmark experiments for evaluating different aspects of Large Language Models (LLMs).
 

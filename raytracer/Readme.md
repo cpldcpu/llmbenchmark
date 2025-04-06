@@ -21,7 +21,8 @@ The following prompt was used for all LLMs:
 * [Grok 2](raytracer_grok2.py)
 * [Grok 3](raytracer_grok3.py)
 * [Llama 3.3 70b](raytracer_llama3_3_70b.py)
-* [Llama4 scout](/variant_llama4_scout/iteration4.py)
+* [Llama4 Scout](/variant_llama4_scout/iteration4.py)
+* [Llama4 Maverick](/variant_llama4_maverick/iteration4.py)
 * [O1](raytracer_o1.py)
 * [O3-Mini](raytracer_o3-mini.py)
 * [GPT-4o](raytracer_4o.py)
@@ -254,6 +255,25 @@ We can clearly see a significant change in behavior between the two models. Sonn
   </tr>
 </table>
 
+#### Gemini 2.5 Pro Exp Variance Test
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="variance_gemini25pro/raytraced_scene1.png" alt="Gemini 2.5 pro Exp - Test 1" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_gemini25pro/raytraced_scene2.png" alt="Gemini 2.5 pro Exp - Test 2" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_gemini25pro/raytraced_scene3.png" alt="Gemini 2.5 pro Exp - Test 3" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_gemini25pro/raytraced_scene4.png" alt="Gemini 2.5 pro Exp - Test 4" width="400" />
+    </td>
+  </tr>
+</table>
+
 #### Quasar Alpha Variance Test
 
 <table align="center">
@@ -288,6 +308,25 @@ We can clearly see a significant change in behavior between the two models. Sonn
     </td>
     <td align="center">
       <img src="variance_llama4_scout/raytraced_scene4.png" alt="llama4-scout - Test 4" width="400" />
+    </td>
+  </tr>
+</table>
+
+#### Llama4 Maverick Variance Test
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="variance_llama4_maverick/raytraced_scene1.png" alt="llama4-maverick - Test 1" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_llama4_maverick/raytraced_scene2.png" alt="llama4-maverick - Test 2" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_llama4_maverick/raytraced_scene3.png" alt="llama4-maverick - Test 3" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_llama4_maverick/raytraced_scene4.png" alt="llama4-maverick - Test 4" width="400" />
     </td>
   </tr>
 </table>

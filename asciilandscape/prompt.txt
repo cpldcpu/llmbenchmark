@@ -1,0 +1,1 @@
+write a python program that prints an interesting landscape in ascii art in the console and then quits.

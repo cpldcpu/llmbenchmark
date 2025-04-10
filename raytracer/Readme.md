@@ -21,12 +21,14 @@ The following prompt was used for all LLMs:
 * [Grok 2](raytracer_grok2.py)
 * [Grok 3](raytracer_grok3.py)
 * [Llama 3.3 70b](raytracer_llama3_3_70b.py)
-* [Llama4 Scout](/variant_llama4_scout/iteration4.py)
-* [Llama4 Maverick](/variant_llama4_maverick/iteration4.py)
+* [Llama4 Scout](/variance_llama4_scout/iteration4.py)
+* [Llama4 Maverick](/variance_llama4_maverick/iteration4.py)
 * [O1](raytracer_o1.py)
 * [O3-Mini](raytracer_o3-mini.py)
 * [GPT-4o](raytracer_4o.py)
 * [GPT-4.5](raytracer_gpt4_5.py)
+* [Quasar Alpha](/variance_quasar_alpha/iteration1.py)
+* [Optimus Alpha](/variance_optimus_alpha/iteration1.py)
 * [Qwen Max](raytracer_qwen_max.py)
 * [QwQ32B](raytracer_qwq32b.py)
 
@@ -130,7 +132,8 @@ The following LLMs did not return properly functioning code: Grok3-thinking, Dee
       Quasar Alpha
     </td>
     <td align="center">
-     -
+      <img src="variance_optimus_alpha/raytraced_scene2.png" alt="Optimus Alpha" width="400" /><br/>
+      Optimus Alpha
      </td>
   </tr>
 </table>
@@ -289,6 +292,25 @@ We can clearly see a significant change in behavior between the two models. Sonn
     </td>
     <td align="center">
       <img src="variance_quasar_alpha/raytraced_scene4.png" alt="Grok 3 - Test 4" width="400" />
+    </td>
+  </tr>
+</table>
+
+#### Optimus Alpha Variance Test
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="variance_optimus_alpha/raytraced_scene1.png" alt="Optimus Alpha - Test 1" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_optimus_alpha/raytraced_scene2.png" alt="Optimus Alpha - Test 2" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_optimus_alpha/raytraced_scene3.png" alt="Optimus Alpha - Test 3" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_optimus_alpha/raytraced_scene4.png" alt="Optimus Alpha - Test 4" width="400" />
     </td>
   </tr>
 </table>

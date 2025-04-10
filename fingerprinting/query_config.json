@@ -1,6 +1,46 @@
 {
   "llms": [
     {
+      "name": "optimus-alpha",
+      "model": "openrouter/optimus-alpha",
+      "max_tokens": 4096,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "quasar-alpha",
+      "model": "openrouter/quasar-alpha",
+      "max_tokens": 4096,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "gemini-2.5-pro-preview-03-25",
+      "model": "google/gemini-2.5-pro-preview-03-25",
+      "max_tokens": 4096,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "llama-4-scout",
+      "model": "meta-llama/llama-4-scout",
+      "max_tokens": 4096,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "grok-3-mini-beta",
+      "model": "x-ai/grok-3-mini-beta",
+      "max_tokens": 4096,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "repetition_penalty": 1
+    },
+    {
       "name": "qwq-32b-preview",
       "model": "qwen/qwq-32b-preview",
       "temperature": 0.7,

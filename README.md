@@ -2,7 +2,7 @@
 
 A collection of benchmark experiments for evaluating different aspects of Large Language Models (LLMs).
 
-## Projects
+## Benchmark Projects
 
 ### [Raytracer](raytracer/Readme.md)
 Evaluates code generation capabilities by prompting to create Python raytracers. Includes visual comparisons and consistency tests across multiple models.
@@ -12,6 +12,12 @@ Analyzes the reasoning patterns and chain-of-thought processes of various LLMs b
 
 ### [Fingerprinting](fingerprinting/README.md)
 Attempt to tests LLM consistency and uniqueness across various topic domains by analyzing generation statistics for prompts with a single word response. Helps identify model-specific response patterns that can serve as "fingerprints" for different LLMs.
+
+## Evaluation Projects
+
+### [Pathtracer](pathtracer/README.md)
+A a vibe coding project to test the capabitilies of the mystery model "Optimus Alpha". It implements a real-time path tracing techniques for realistic lighting and shadows.
+
 
 ## License
 

@@ -25,6 +25,7 @@ The following prompt was used for all LLMs:
 * [Llama4 Maverick](/variance_llama4_maverick/iteration4.py)
 * [O1](raytracer_o1.py)
 * [O3-Mini](raytracer_o3-mini.py)
+* [O4-Mini High](/variance_o4_mini_high/iteration1.py)
 * [GPT-4o](raytracer_4o.py)
 * [GPT-4.5](raytracer_gpt4_5.py)
 * [Quasar Alpha](/variance_quasar_alpha/iteration1.py)
@@ -353,6 +354,24 @@ We can clearly see a significant change in behavior between the two models. Sonn
   </tr>
 </table>
 
+#### o4-Mini High Variance Test
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="variance_o4_mini_high/raytraced_scene1.png" alt="o4-Mini High - Test 1" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_o4_mini_high/raytraced_scene2.png" alt="o4-Mini High - Test 2" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_o4_mini_high/raytraced_scene3.png" alt="o4-Mini High - Test 3" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_o4_mini_high/raytraced_scene4.png" alt="o4-Mini High - Test 4" width="400" />
+    </td>
+  </tr>
+</table>
 
 #### File sizes
 

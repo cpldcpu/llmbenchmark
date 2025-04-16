@@ -64,7 +64,7 @@ def main(source_file, output_file):
         print("Error: The pivot table is empty. No heatmap can be generated.")
     else:
         # Create the heatmap
-        plt.figure(figsize=(20, 12))  # Increased figure size for better text visibility
+        plt.figure(figsize=(20, 16))  # Increased figure size for better text visibility
         ax = sns.heatmap(pivot_table, cmap='YlOrRd', annot=True, fmt='d', cbar_kws={'label': 'Frequency'})
         
         # Increase font size of annotation (the numbers in each cell)

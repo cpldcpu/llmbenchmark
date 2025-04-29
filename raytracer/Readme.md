@@ -33,7 +33,7 @@ The following prompt was used for all LLMs:
 * [Qwen Max](raytracer_qwen_max.py)
 * [QwQ32B](raytracer_qwq32b.py)
 
-The following LLMs did not return properly functioning code: Grok3-thinking, DeepSeek-R1, Le Chat (Mistral Large 2), 8b models, llama3-405b/70b, llama3-hermes3-405b/70b, Hunyuan-T1. Generally, the R1-adjacent reasoning models tend to overthink code fragments and then come up with dysfunctional code. Sonnet-
+The following LLMs did not return properly functioning code: Grok3-thinking, DeepSeek-R1, Le Chat (Mistral Large 2), 8b models, llama3-405b/70b, llama3-hermes3-405b/70b, Hunyuan-T1,Qwen3-235. Generally, the R1-adjacent reasoning models tend to overthink code fragments and then come up with dysfunctional code. 
 
 ## Results
 

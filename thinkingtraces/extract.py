@@ -27,7 +27,7 @@ def process_file(filepath):
         return percentages
 
 def print_histograms(file_histograms):
-    """Print histograms for all files as text and create comparison matrix."""
+    """Print histograms for all files as text and create comparison matrix and correlation heatmap."""
     # Get all unique words from top 10 of each file
     top_words = set()
     file_tops = {}
@@ -57,60 +57,80 @@ def print_histograms(file_histograms):
     
     # Create DataFrame with words as index, sorted by maximum percentage
     df = pd.DataFrame.from_dict(matrix_data, orient='index')
+    # Fill NaN with 0 for correlation calculation, but keep original df for frequency heatmap
+    df_filled = df.fillna(0) 
     df = df.reindex(df.max(axis=1).sort_values(ascending=False).index)
     
-    # Take only top 20 rows
-    df = df.head(20)
+    # Take only top 20 rows for frequency heatmap
+    df_freq = df.head(20)
 
-    # sort
-    df = df[sorted(df.columns)]
+    # sort columns for frequency heatmap
+    df_freq = df_freq[sorted(df_freq.columns)]
     
     print("\nComparison Matrix (percentages):")
     print("-" * 40)
-    print(df.round(2).to_string(na_rep=''))
+    print(df_freq.round(2).to_string(na_rep=''))
     
-    # Create a more compact heatmap visualization
-    # Create figure with tighter sizing
+    # --- Frequency Heatmap ---
     plt.figure(figsize=(10, 6))
     
     # Create mask for NaN values to leave them white
-    mask = df.isna()
+    mask_freq = df_freq.isna()
     
-    # Create the heatmap with improved styling for compactness
-    ax = sns.heatmap(
-        df,
+    # Create the frequency heatmap
+    ax_freq = sns.heatmap(
+        df_freq,
         annot=True,
         fmt='.1f',
         cmap='YlOrRd',
         cbar_kws={'label': 'Percentage', 'shrink': 0.6, 'aspect': 10},
         linewidths=0.2,
-        mask=mask,
+        mask=mask_freq,
         annot_kws={"size": 9, "weight": "bold"},
-        square=False  # Allow rectangular cells for better space usage
+        square=False
     )
     
-    # Improve title and labels with more compact styling
-    plt.title('Word Frequency Heatmap of First Word per Line', fontsize=12, fontweight='bold', pad=10)
+    plt.title('Word Frequency Heatmap of First Word per Line (Top 20 Words)', fontsize=12, fontweight='bold', pad=10)
     plt.ylabel('Words', fontsize=10, fontweight='bold', labelpad=5)
     plt.xlabel('Files', fontsize=10, fontweight='bold', labelpad=5)
-    
-    # Fix overlapping labels with more compact placement
     plt.xticks(rotation=45, ha='right', fontsize=10)
     plt.yticks(fontsize=8)
-    
-    # Move x-axis labels to the top
-    # ax.xaxis.tick_top()
-    # ax.xaxis.set_label_position('top')
-    
-    # Reduce padding around the plot
     plt.tight_layout(pad=1.0)
     
-    # Save the heatmap to a file before displaying
-    output_path = Path(os.path.dirname(os.path.abspath(__file__))) / "word_frequency_heatmap.png"
-    plt.savefig(output_path, dpi=300, bbox_inches='tight')
-    print(f"\nHeatmap saved to: {output_path}")
+    output_path_freq = Path(os.path.dirname(os.path.abspath(__file__))) / "word_frequency_heatmap.png"
+    plt.savefig(output_path_freq, dpi=300, bbox_inches='tight')
+    print(f"\nFrequency Heatmap saved to: {output_path_freq}")
     
-    # Show the plot
+    # --- Correlation Heatmap ---
+    # Calculate correlation matrix on the df_filled (NaNs as 0)
+    correlation_matrix = df_filled.corr()
+
+    plt.figure(figsize=(8, 6)) # Adjust size for correlation matrix
+    
+    # Create the correlation heatmap
+    ax_corr = sns.heatmap(
+        correlation_matrix,
+        annot=True,
+        fmt='.2f', # Show correlation values with 2 decimal places
+        cmap='coolwarm', # Use a diverging colormap for correlation
+        cbar_kws={'label': 'Correlation Coefficient', 'shrink': 0.7, 'aspect': 15},
+        linewidths=0.5,
+        linecolor='lightgray',
+        square=True # Keep correlation matrix square
+    )
+
+    plt.title('Cross-Correlation of First Word Statistics', fontsize=12, fontweight='bold', pad=10)
+    plt.ylabel('Files', fontsize=10, fontweight='bold', labelpad=5)
+    plt.xlabel('Files', fontsize=10, fontweight='bold', labelpad=5)
+    plt.xticks(rotation=45, ha='right', fontsize=9)
+    plt.yticks(rotation=0, fontsize=9) # Keep y-axis labels horizontal
+    plt.tight_layout(pad=1.0)
+
+    output_path_corr = Path(os.path.dirname(os.path.abspath(__file__))) / "word_correlation_heatmap.png"
+    plt.savefig(output_path_corr, dpi=300, bbox_inches='tight')
+    print(f"Correlation Heatmap saved to: {output_path_corr}")
+
+    # Show both plots
     plt.show()
 
 def main():

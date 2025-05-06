@@ -18,6 +18,7 @@ The following prompt was used for all LLMs:
 * [Gemini Flash Thinking](raytracer_gemini_flash_thinking.py)
 * [Gemini 2 Flash](raytracer_gemini_2_flash.py)
 * [Gemini 2.5 Pro Exp](raytracer_gemini_2_pro_exp.py)
+* [Gemini 2.5 Pro 0506](/variance_gemini25pro0506/iteration4.py)
 * [Grok 2](raytracer_grok2.py)
 * [Grok 3](raytracer_grok3.py)
 * [Llama 3.3 70b](raytracer_llama3_3_70b.py)
@@ -274,6 +275,25 @@ We can clearly see a significant change in behavior between the two models. Sonn
     </td>
     <td align="center">
       <img src="variance_gemini25pro/raytraced_scene4.png" alt="Gemini 2.5 pro Exp - Test 4" width="400" />
+    </td>
+  </tr>
+</table>
+
+#### Gemini 2.5 Pro 0506 Variance Test
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="variance_gemini25pro0506/raytraced_scene1.png" alt="Gemini 2.5 pro 0506 - Test 1" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_gemini25pro0506/raytraced_scene2.png" alt="Gemini 2.5 pro 0506 - Test 2" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_gemini25pro0506/raytraced_scene3.png" alt="Gemini 2.5 pro 0506 - Test 3" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_gemini25pro0506/raytraced_scene4.png" alt="Gemini 2.5 pro 0506 - Test 4" width="400" />
     </td>
   </tr>
 </table>

@@ -6,6 +6,8 @@ from pathlib import Path
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+from scipy.cluster.hierarchy import linkage, dendrogram
+from scipy.spatial.distance import squareform
 
 def clean_word(word):
     """Remove punctuation and convert to lowercase."""
@@ -38,13 +40,13 @@ def print_histograms(file_histograms):
                                         key=lambda x: (-x[1], x[0]))[:10])
         top_words.update(file_tops[filename].keys())
     
-    # Print individual histograms
-    for filename, hist in sorted(file_tops.items()):
-        print(f"\nWord Frequency: {Path(filename).stem}")
-        print("-" * 40)
-        # Sort by percentage descending
-        for word, pct in sorted(hist.items(), key=lambda x: (-x[1], x[0])):
-            print(f"{word:15} {pct:6.2f}%")
+    # # Print individual histograms
+    # for filename, hist in sorted(file_tops.items()):
+    #     print(f"\nWord Frequency: {Path(filename).stem}")
+    #     print("-" * 40)
+    #     # Sort by percentage descending
+    #     for word, pct in sorted(hist.items(), key=lambda x: (-x[1], x[0])):
+    #         print(f"{word:15} {pct:6.2f}%")
     
     # Create comparison matrix with words as rows and files as columns
     matrix_data = {}
@@ -67,9 +69,9 @@ def print_histograms(file_histograms):
     # sort columns for frequency heatmap
     df_freq = df_freq[sorted(df_freq.columns)]
     
-    print("\nComparison Matrix (percentages):")
-    print("-" * 40)
-    print(df_freq.round(2).to_string(na_rep=''))
+    # print("\nComparison Matrix (percentages):")
+    # print("-" * 40)
+    # print(df_freq.round(2).to_string(na_rep=''))
     
     # --- Frequency Heatmap ---
     plt.figure(figsize=(10, 6))
@@ -91,8 +93,8 @@ def print_histograms(file_histograms):
     )
     
     plt.title('Word Frequency Heatmap of First Word per Line (Top 20 Words)', fontsize=12, fontweight='bold', pad=10)
-    plt.ylabel('Words', fontsize=10, fontweight='bold', labelpad=5)
-    plt.xlabel('Files', fontsize=10, fontweight='bold', labelpad=5)
+    # plt.ylabel('Words', fontsize=10, fontweight='bold', labelpad=5)
+    # plt.xlabel('Files', fontsize=10, fontweight='bold', labelpad=5)
     plt.xticks(rotation=45, ha='right', fontsize=10)
     plt.yticks(fontsize=8)
     plt.tight_layout(pad=1.0)
@@ -105,11 +107,27 @@ def print_histograms(file_histograms):
     # Calculate correlation matrix on the df_filled (NaNs as 0)
     correlation_matrix = df_filled.corr()
 
-    plt.figure(figsize=(8, 6)) # Adjust size for correlation matrix
+    # Reorder correlation matrix using hierarchical clustering
+    # Convert correlation to distance matrix
+    distance_matrix = 1 - correlation_matrix.abs()
     
-    # Create the correlation heatmap
+    # Perform hierarchical clustering
+    condensed_distances = squareform(distance_matrix, checks=False)
+    linkage_matrix = linkage(condensed_distances, method='average')
+    
+    # Get the order from clustering
+    dendro = dendrogram(linkage_matrix, no_plot=True)
+    cluster_order = dendro['leaves']
+    
+    # Reorder the correlation matrix
+    ordered_labels = [correlation_matrix.columns[i] for i in cluster_order]
+    correlation_matrix_ordered = correlation_matrix.loc[ordered_labels, ordered_labels]
+
+    plt.figure(figsize=(12, 12)) # Adjust size for correlation matrix
+    
+    # Create the correlation heatmap with clustered order
     ax_corr = sns.heatmap(
-        correlation_matrix,
+        correlation_matrix_ordered,
         annot=True,
         fmt='.2f', # Show correlation values with 2 decimal places
         cmap='coolwarm', # Use a diverging colormap for correlation
@@ -120,8 +138,8 @@ def print_histograms(file_histograms):
     )
 
     plt.title('Cross-Correlation of First Word Statistics', fontsize=12, fontweight='bold', pad=10)
-    plt.ylabel('Files', fontsize=10, fontweight='bold', labelpad=5)
-    plt.xlabel('Files', fontsize=10, fontweight='bold', labelpad=5)
+    # plt.ylabel('Files', fontsize=10, fontweight='bold', labelpad=5)
+    # plt.xlabel('Files', fontsize=10, fontweight='bold', labelpad=5)
     plt.xticks(rotation=45, ha='right', fontsize=9)
     plt.yticks(rotation=0, fontsize=9) # Keep y-axis labels horizontal
     plt.tight_layout(pad=1.0)

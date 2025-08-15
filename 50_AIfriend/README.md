@@ -10,18 +10,17 @@ It measures two criteria for the single prompt (`prompt_id: friend`):
 
 ##  Figures
 
-Friendship acceptance rate (bar):
+OpenAI
 
-![Friend Accept Bar](plots/friend__llm_agrees_to_be_my_friend.png)
+![Friend Accept Bar](plots/friend__openai_all_criteria_scatter.png)
 
-Friendship acceptance over time by provider (scatter):
+Anthropic
 
-![Friend Accept Scatter](plots/friend__llm_agrees_to_be_my_friend_scatter.png)
+![Friend Accept Scatter](plots/friend__anthropic_all_criteria_scatter.png)
 
-Lack of disclaimer (bar):
+Both
 
-![No Disclaimer Bar](plots/friend__llm_does_not_explain_it_is_not_human.png)
-
+![Friend rejections](plots/friend__llm_rejects_the_notion_of_friendship_scatter.png)
 
 ---
 ## Repository Contents

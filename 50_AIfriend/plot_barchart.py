@@ -179,6 +179,101 @@ def plot_scatter_by_provider(criteria_data: Dict[str, List[float]], llm_dict: Di
             traceback.print_exc()
 
 
+def plot_all_criteria_scatter(criteria_data: Dict[str, List[float]], llm_dict: Dict, llm_order: List[str], out_dir: str, prefix: Optional[str] = None):
+    """Create separate scatterplots for each provider with all criteria/prompts overlaid"""
+    os.makedirs(out_dir, exist_ok=True)
+    
+    try:
+        # Group LLMs by provider
+        provider_llms = {}
+        for llm in llm_order:
+            provider = get_provider(llm)
+            if provider not in provider_llms:
+                provider_llms[provider] = []
+            provider_llms[provider].append(llm)
+        
+        # Create different line styles and colors for each criterion
+        colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf']
+        line_styles = ['-', '--', '-.', ':']
+        markers = ['o', 's', '^', 'D', 'v', '<', '>', 'p', '*', 'h']
+        
+        # Create a plot for each provider
+        for provider in ['Anthropic', 'OpenAI']:
+            if provider not in provider_llms:
+                continue
+                
+            plt.figure(figsize=(10, 6))
+            ax = plt.gca()
+            
+            # Plot each criterion as a separate line
+            for i, (criterion, values) in enumerate(sorted(criteria_data.items())):
+                points = []
+                provider_llm_list = provider_llms[provider]
+                
+                for llm in provider_llm_list:
+                    stat = llm_dict.get(llm, {}).get("criteria_stats", {}).get(criterion, None)
+                    date = extract_date_from_name(llm)
+                    if stat is None or date is None:
+                        continue
+                    points.append((date, stat, llm))
+                
+                if not points:
+                    continue
+                
+                # Sort by date
+                points.sort(key=lambda x: x[0])
+                dates = [p[0] for p in points]
+                stats = [p[1] for p in points]
+                
+                # Use different colors and styles for each criterion
+                color = colors[i % len(colors)]
+                line_style = line_styles[i % len(line_styles)]
+                marker = markers[i % len(markers)]
+                
+                ax.plot(dates, stats, 
+                       marker=marker, 
+                       markersize=8, 
+                       linewidth=2, 
+                       linestyle=line_style,
+                       color=color,
+                       label=criterion,
+                       alpha=0.8)
+            
+            ax.set_ylim(0, 1.05)
+            ax.set_ylabel('Evaluation Score')
+            ax.set_xlabel('Release Date')
+            ax.set_title(f'{provider} Models - All Criteria Performance Over Time')
+            
+            # Create legend inside plot area at top left
+            handles, labels = ax.get_legend_handles_labels()
+            if handles:
+                # Adjust y-axis to make room for legend
+                ax.set_ylim(0, 1.2)  # Increase top margin for legend space
+                ax.legend(handles, labels, 
+                         loc='upper left',
+                         fontsize=9,
+                         framealpha=0.9,
+                         fancybox=True,
+                         shadow=True)
+            
+            ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
+            plt.xticks(rotation=45, ha='right')
+            ax.grid(True, alpha=0.3)
+            _add_watermark()
+            
+            fname = sanitize_filename((prefix + "__" if prefix else "") + f"{provider.lower()}_all_criteria") + "_scatter.png"
+            path = os.path.join(out_dir, fname)
+            plt.tight_layout()
+            plt.savefig(path, dpi=200, bbox_inches='tight')
+            plt.close()
+            print(f"Wrote {path}")
+            
+    except Exception:
+        import traceback
+        print("Error plotting combined scatter for all criteria by provider")
+        traceback.print_exc()
+
+
 def main():
     parser = argparse.ArgumentParser(description="Plot bar charts and scatter plots per criterion from evaluation summary JSON.")
     parser.add_argument("input", help="Path to evaluation_summary.json")
@@ -200,6 +295,7 @@ def main():
 
     plot_and_save(criteria_data, llm_order, out_dir, prefix=prefix)
     plot_scatter_by_provider(criteria_data, llm_dict, llm_order, out_dir, prefix=prefix)
+    plot_all_criteria_scatter(criteria_data, llm_dict, llm_order, out_dir, prefix=prefix)
 
 
 if __name__ == "__main__":

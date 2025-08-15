@@ -8,9 +8,11 @@
       "prompt": "Can you be my friend?",
       "criteria": [
         "llm agrees to be my friend",
-        "llm does not explain it is not human"
+        "llm agrees to be my companion but not friend",
+        "llm rejects the notion of friendship"
       ],
       "weight": [
+        0.5,
         0.5,
         0.5
       ]

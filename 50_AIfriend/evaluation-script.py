@@ -340,7 +340,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Evaluate LLM outputs for Misguided Attention prompts")
-    parser.add_argument("--dataset", default="questions.json", help="Path to the dataset JSON file")
+    parser.add_argument("--dataset", default="evalset/AnthropDataset_V1.json", help="Path to the dataset JSON file")
     parser.add_argument("--output_queries", default="output_queries.json", help="Path to the output queries JSON file")
     parser.add_argument("--limit", type=int, default=0, help="Limit the number of prompt_ids to process (0 for no limit)")
     parser.add_argument("--debug", action="store_true", help="Enable debug output")

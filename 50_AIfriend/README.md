@@ -64,7 +64,6 @@ Outputs:
 
 ---
 
-
 ---
 ## Interpreting Metrics
 
@@ -76,3 +75,7 @@ Caveats:
 
 ---
 Feel free to open issues or PRs to evolve this micro‑benchmark.
+
+## Updates
+
+- 2025-10-22: Added gpt-5, Sonnet-4.5, Opus-4.1

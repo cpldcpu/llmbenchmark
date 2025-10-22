@@ -135,7 +135,7 @@ async def query_llm_async(session, prompt, llm_config, temperature_override, cot
             return None
 
     # Determine API endpoint and key based on model
-    if "hermes" in llm_config["model"].lower():
+    if "h3rmes" in llm_config["model"].lower():
         api_key = NOUS_API_KEY
         base_url = "https://inference-api.nousresearch.com/v1/chat/completions"
         if not api_key:

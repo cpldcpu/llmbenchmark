@@ -35,6 +35,7 @@ The following prompt was used for all LLMs:
 * [Optimus Alpha](/variance_optimus_alpha/iteration1.py)
 * [Qwen Max](raytracer_qwen_max.py)
 * [QwQ32B](raytracer_qwq32b.py)
+* [GPT5.3-Codex-Extra High](/variance_gpt53codexEH/raytracer1.py)
 
 The following LLMs did not return properly functioning code: Grok3-thinking, DeepSeek-R1, Le Chat (Mistral Large 2), 8b models, llama3-405b/70b, llama3-hermes3-405b/70b, Hunyuan-T1,Qwen3-235, Qwen3.5-397B-A17B. Generally, the R1-adjacent reasoning models tend to overthink code fragments and then come up with dysfunctional code. 
 
@@ -423,6 +424,22 @@ We can clearly see a significant change in behavior between the two models. Sonn
     </td>
     <td align="center">
       <img src="variance_gemini3pro/raytracer_output3.png" alt="Gemini 3 Pro - Test 3" width="400" />
+    </td>
+  </tr>
+</table>
+
+#### GPT5.3-Codex-Extra High Variance Test
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="variance_gpt53codexEH/raytrace_scene1.png" alt="GPT5.3-Codex-Extra High - Test 1" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_gpt53codexEH/raytrace_scene2.png" alt="GPT5.3-Codex-Extra High - Test 2" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_gpt53codexEH/raytrace_scene3.png" alt="GPT5.3-Codex-Extra High - Test 3" width="400" />
     </td>
   </tr>
 </table>

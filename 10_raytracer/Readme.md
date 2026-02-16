@@ -19,6 +19,7 @@ The following prompt was used for all LLMs:
 * [Gemini 2 Flash](raytracer_gemini_2_flash.py)
 * [Gemini 2.5 Pro Exp](raytracer_gemini_2_pro_exp.py)
 * [Gemini 2.5 Pro 0506](/variance_gemini25pro0506/iteration4.py)
+* [Gemini 3 Pro](/variance_gemini3pro/iteration1.py)
 * [Grok 2](raytracer_grok2.py)
 * [Grok 3](raytracer_grok3.py)
 * [Llama 3.3 70b](raytracer_llama3_3_70b.py)
@@ -35,7 +36,7 @@ The following prompt was used for all LLMs:
 * [Qwen Max](raytracer_qwen_max.py)
 * [QwQ32B](raytracer_qwq32b.py)
 
-The following LLMs did not return properly functioning code: Grok3-thinking, DeepSeek-R1, Le Chat (Mistral Large 2), 8b models, llama3-405b/70b, llama3-hermes3-405b/70b, Hunyuan-T1,Qwen3-235. Generally, the R1-adjacent reasoning models tend to overthink code fragments and then come up with dysfunctional code. 
+The following LLMs did not return properly functioning code: Grok3-thinking, DeepSeek-R1, Le Chat (Mistral Large 2), 8b models, llama3-405b/70b, llama3-hermes3-405b/70b, Hunyuan-T1,Qwen3-235, Qwen3.5-397B-A17B. Generally, the R1-adjacent reasoning models tend to overthink code fragments and then come up with dysfunctional code. 
 
 ## Results
 
@@ -406,6 +407,22 @@ We can clearly see a significant change in behavior between the two models. Sonn
     </td>
     <td align="center">
       <img src="variance_opus46/raytraced_scene3.png" alt="Opus 4.6 - Test 3" width="400" />
+    </td>
+  </tr>
+</table>
+
+#### Gemini 3 Pro Variance Test
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="variance_gemini3pro/raytracer_output1.png" alt="Gemini 3 Pro - Test 1" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_gemini3pro/raytracer_output2.png" alt="Gemini 3 Pro - Test 2" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_gemini3pro/raytracer_output3.png" alt="Gemini 3 Pro - Test 3" width="400" />
     </td>
   </tr>
 </table>

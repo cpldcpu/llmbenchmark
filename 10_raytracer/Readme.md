@@ -29,6 +29,7 @@ The following prompt was used for all LLMs:
 * [O4-Mini High](/variance_o4_mini_high/iteration1.py)
 * [GPT-4o](raytracer_4o.py)
 * [GPT-4.5](raytracer_gpt4_5.py)
+* [Opus 4.6](/variance_opus46/raytracer.py)
 * [Quasar Alpha](/variance_quasar_alpha/iteration1.py)
 * [Optimus Alpha](/variance_optimus_alpha/iteration1.py)
 * [Qwen Max](raytracer_qwen_max.py)
@@ -389,6 +390,22 @@ We can clearly see a significant change in behavior between the two models. Sonn
     </td>
     <td align="center">
       <img src="variance_o4_mini_high/raytraced_scene4.png" alt="o4-Mini High - Test 4" width="400" />
+    </td>
+  </tr>
+</table>
+
+#### Opus 4.6 Variance Test
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="variance_opus46/raytraced_scene1.png" alt="Opus 4.6 - Test 1" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_opus46/raytraced_scene2.png" alt="Opus 4.6 - Test 2" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_opus46/raytraced_scene3.png" alt="Opus 4.6 - Test 3" width="400" />
     </td>
   </tr>
 </table>

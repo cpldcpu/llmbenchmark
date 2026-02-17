@@ -12,6 +12,7 @@ The following prompt was used for all LLMs:
 * [Claude Sonnet 3.5 (new)](raytracer_sonnet.py)
 * [Claude Sonnet 3.7](raytracer_sonnet37.py)
 * [Claude Sonnet 3.7 Thinking](raytracer_sonnet37_thinking.py)
+* [Claude Sonnet 4.6](/variance_sonnet46/raytracer1.py)
 * [DeepSeek v3](raytracer_DeepSeek_v3.py)
 * [DeepSeek v3_0324](raytracer_DeepSeek_v3_0324.py)
 * [DeepSeek R1](raytracer_DeepSeek_r1.py)
@@ -440,6 +441,22 @@ We can clearly see a significant change in behavior between the two models. Sonn
     </td>
     <td align="center">
       <img src="variance_gpt53codexEH/raytrace_scene3.png" alt="GPT5.3-Codex-Extra High - Test 3" width="400" />
+    </td>
+  </tr>
+</table>
+
+#### Sonnet 4.6 Variance Test
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="variance_sonnet46/scene1.png" alt="Sonnet 4.6 - Test 1" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_sonnet46/scene2.png" alt="Sonnet 4.6 - Test 2" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_sonnet46/scene3.png" alt="Sonnet 4.6 - Test 3" width="400" />
     </td>
   </tr>
 </table>

@@ -462,6 +462,25 @@ We can clearly see a significant change in behavior between the two models. Sonn
   </tr>
 </table>
 
+#### Grok 4.2 Variance Test
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="variance_grok42/scene1.png" alt="Grok 4.2 - Test 1" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_grok42/scene2.png" alt="Grok 4.2 - Test 2" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_grok42/scene3.png" alt="Grok 4.2 - Test 3" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_grok42/scene4.png" alt="Grok 4.2 - Test 4" width="400" />
+    </td>
+  </tr>
+</table>
+
 #### File sizes
 
 There is a notable correlation between code creativity and file size.

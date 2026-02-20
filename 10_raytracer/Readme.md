@@ -23,6 +23,7 @@ The following prompt was used for all LLMs:
 * [Gemini 3 Pro](/variance_gemini3pro/iteration1.py)
 * [Grok 2](raytracer_grok2.py)
 * [Grok 3](raytracer_grok3.py)
+* [Grok 4.2](/variance_grok42/raytracer1.py)
 * [Llama 3.3 70b](raytracer_llama3_3_70b.py)
 * [Llama4 Scout](/variance_llama4_scout/iteration4.py)
 * [Llama4 Maverick](/variance_llama4_maverick/iteration4.py)

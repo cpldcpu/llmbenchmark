@@ -21,6 +21,7 @@ The following prompt was used for all LLMs:
 * [Gemini 2.5 Pro Exp](raytracer_gemini_2_pro_exp.py)
 * [Gemini 2.5 Pro 0506](/variance_gemini25pro0506/iteration4.py)
 * [Gemini 3 Pro](/variance_gemini3pro/iteration1.py)
+* [Gemini 3.1 Pro](/variance_gemini31pro/raytracer1.py)
 * [Grok 2](raytracer_grok2.py)
 * [Grok 3](raytracer_grok3.py)
 * [Grok 4.2](/variance_grok42/raytracer1.py)
@@ -477,6 +478,25 @@ We can clearly see a significant change in behavior between the two models. Sonn
     </td>
     <td align="center">
       <img src="variance_grok42/scene4.png" alt="Grok 4.2 - Test 4" width="400" />
+    </td>
+  </tr>
+</table>
+
+#### Gemini 3.1 Pro Variance Test
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="variance_gemini31pro/raytracer_output1.png" alt="Gemini 3.1 Pro - Test 1" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_gemini31pro/raytracer_output2.png" alt="Gemini 3.1 Pro - Test 2" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_gemini31pro/raytracer_output3.png" alt="Gemini 3.1 Pro - Test 3" width="400" />
+    </td>
+    <td align="center">
+      <img src="variance_gemini31pro/raytracer_output4.png" alt="Gemini 3.1 Pro - Test 4" width="400" />
     </td>
   </tr>
 </table>

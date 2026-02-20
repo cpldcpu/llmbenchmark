@@ -487,16 +487,16 @@ We can clearly see a significant change in behavior between the two models. Sonn
 <table align="center">
   <tr>
     <td align="center">
-      <img src="variance_gemini31pro/raytracer_output1.png" alt="Gemini 3.1 Pro - Test 1" width="400" />
+      <img src="variance_gemini31pro/output1.png" alt="Gemini 3.1 Pro - Test 1" width="400" />
     </td>
     <td align="center">
-      <img src="variance_gemini31pro/raytracer_output2.png" alt="Gemini 3.1 Pro - Test 2" width="400" />
+      <img src="variance_gemini31pro/output2.png" alt="Gemini 3.1 Pro - Test 2" width="400" />
     </td>
     <td align="center">
-      <img src="variance_gemini31pro/raytracer_output3.png" alt="Gemini 3.1 Pro - Test 3" width="400" />
+      <img src="variance_gemini31pro/output3.png" alt="Gemini 3.1 Pro - Test 3" width="400" />
     </td>
     <td align="center">
-      <img src="variance_gemini31pro/raytracer_output4.png" alt="Gemini 3.1 Pro - Test 4" width="400" />
+      <img src="variance_gemini31pro/output4.png" alt="Gemini 3.1 Pro - Test 4" width="400" />
     </td>
   </tr>
 </table>
